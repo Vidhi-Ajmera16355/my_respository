@@ -1,10 +1,10 @@
 #include <stdio.h>
-void array(int n,int*a){
+void array(int n,int*p){
+    printf("Negative array elements are:\n");
     for(int i=0;i<n;i++)
     {
-        if(a[i]<0){
-            printf("Negative array elements are:\n")
-           printf("%d ",a[i]);
+        if(p[i]<0){
+           printf("%d ",p[i]);
         }
      
     }
